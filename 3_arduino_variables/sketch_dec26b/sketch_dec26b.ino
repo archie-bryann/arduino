@@ -4,6 +4,8 @@ int dit = 250;
 int dah = 700;
 int longW = 2000;
 
+Sting myName = "Ekomobong Archibong";
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(redLED, OUTPUT);

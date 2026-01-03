@@ -1,5 +1,5 @@
 int myVoltPin = A2;
-int readVal;
+int readVal; 
 float V2;
 int delayT = 250;
 

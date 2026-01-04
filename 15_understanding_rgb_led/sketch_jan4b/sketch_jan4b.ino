@@ -47,14 +47,14 @@ void loop() {
 
   // rgb
   if (myColor == "aqua") {
-    digitalWrite(redPin, LOW);
-    digitalWrite(greenPin, 255);
-    digitalWrite(bluePin, 255);
+    analogWrite(redPin, LOW);
+    analogWrite(greenPin, 255);
+    analogWrite(bluePin, 255);
   }
 
   if (myColor == "purple") {
-    digitalWrite(redPin, 128);
-    digitalWrite(greenPin, 0);
-    digitalWrite(bluePin, 128);
+    analogWrite(redPin, 128);
+    analogWrite(greenPin, 0);
+    analogWrite(bluePin, 128);
   }
 }

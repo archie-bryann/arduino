@@ -1,6 +1,6 @@
 #include <Servo.h>
 int servoPin = 9;
-int servoPos = 180;
+int servoPos = 90;
 Servo myServo;
 
 void setup() {

@@ -9,7 +9,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(latchPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
-  pinMode(clockPin, OUTPUT);
+  pinMode(clockPin, OUTPUT); 
 }
 
 void loop() {
